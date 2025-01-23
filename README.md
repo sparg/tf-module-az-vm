@@ -10,7 +10,7 @@
 Virtual Machine
 ```hcl
 module "virtual_machine" {
-  source = "git@github.com:Sparg/tf-module-az.git//vm?ref=<release-tag>"
+  source = "git@github.com:Sparg/tf-module-az-vm.git?ref=<release-tag>"
 
   instance            = var.instance
   resource_group_name = var.resource_group
